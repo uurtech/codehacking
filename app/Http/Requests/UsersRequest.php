@@ -29,6 +29,7 @@ class UsersRequest extends FormRequest
             'email' => 'required',
             'role_id' => 'required',
             'status' => 'required',
+            'file' => 'required',
             'password' => 'required',
             //
         ];
